@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Dsscord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Community-Forum-Software?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Community-Forum-Software?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Community-Forum-Software?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Community-Forum-Software?color=blue" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-green.svg" alt="License" /></a>
@@ -65,40 +65,40 @@ The global online community and forum software market is estimated at **$1.8B �
 
 *Ranked strictly in descending order by GitHub stargazers count.*
 
-- **[Discourse](https://github.com/discourse/discourse)** [![GitHub Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)  
+- **[Discourse](https://github.com/discourse/discourse)** [![GitHub_Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)  
   👑 **The enterprise self-hosted standard.** GPL-2.0 licensed. Built by Stack Overflow co-founder Jeff Atwood. **Strengths**: built-in gamification with trust levels and badges, separate chat surface, SSO via SAML/OIDC/LDAP, Akismet anti-spam, and 200+ plugins. **Resource requirements**: 2 GB RAM minimum, 4 GB recommended; Docker-based with Postgres, Redis, and Sidekiq. **Trade-offs**: Ruby on Rails can be slow without enough resources; plugin development requires Ember.js expertise. Best for established communities with 50+ daily active users needing robust moderation and enterprise SSO.
 
-- **[Flarum](https://github.com/flarum/flarum)** [![GitHub Stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)  
+- **[Flarum](https://github.com/flarum/flarum)** [![GitHub_Stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)  
   ⚡ **The lightweight modern alternative.** MIT licensed. PHP/Laravel-based backend with a Mithril.js frontend—fast, clean, and simple. **Resource requirements**: 512 MB RAM minimum; runs comfortably on modest VPS hardware. **Strengths**: modern single-page-app UI, extensible architecture, smallest footprint of the major open-source forums. **Trade-offs**: smaller extension catalog than Discourse, single-level threading. Best for small to medium communities wanting a clean, snappy modern forum without Discourse's infrastructure overhead.
 
-- **[Apache Answer](https://github.com/apache/answer)** [![GitHub Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)  
+- **[Apache Answer](https://github.com/apache/answer)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)  
   💡 **Open-source Q&A community platform.** Apache-2.0 licensed. Built with Go and React for high performance and low memory consumption. **Strengths**: StackOverflow-style question-and-answer format, voting, reputation scores, badges, and multilingual support out of the box. **Resource requirements**: Lightweight Go binary running easily on 512 MB RAM. Best for developer portals, technical product support, and internal organizational knowledge bases.
 
-- **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)  
+- **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub_Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)  
   🔄 **The real-time forum.** GPL-3.0 licensed. Node.js-based with WebSockets for instant updates—posts appear without page refreshes, notifications pop in real-time, and the experience feels closer to a modern social application. **Strengths**: real-time updates, social-style notifications, reputation/karma, and solid REST/WebSocket APIs. **Resource requirements**: 512 MB RAM minimum; MongoDB or PostgreSQL/Redis. Best for gaming communities, tech groups, and any community where immediacy is core.
 
-- **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)  
+- **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub_Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)  
   🌐 **Federated ActivityPub link aggregator and forum.** AGPL-3.0 licensed. Built in Rust and Actix. **Strengths**: Decentralized and federated with Mastodon and the broader Fediverse; users on any Lemmy or ActivityPub server can subscribe to communities across instances. **Resource requirements**: Ultra-efficient Rust backend. Best for federated communities and organizations wanting privacy-focused, decentralized discussion.
 
-- **[HumHub](https://github.com/humhub/humhub)** [![GitHub Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)  
+- **[HumHub](https://github.com/humhub/humhub)** [![GitHub_Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)  
   👥 **Flexible open-source social network and intranet.** AGPL-3.0 licensed. Built on PHP and Yii framework. **Strengths**: Spaces/groups, user profiles, activity streams, directory, and a rich module marketplace for wikis, polls, and calendar events. Best for enterprise intranets, university student hubs, and organizational social networks.
 
-- **[phpBB](https://github.com/phpbb/phpbb)** [![GitHub Stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)  
+- **[phpBB](https://github.com/phpbb/phpbb)** [![GitHub_Stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)  
   🏛️ **The battle-tested classic bulletin board.** GPL-2.0 licensed. One of the longest-standing open-source forum solutions in history. **Strengths**: Unmatched stability, thousands of legacy extensions and styles, extremely low server overhead, runs on almost any shared PHP/MySQL host. Best for traditional categorized forums and hobbyist communities prioritizing longevity and simplicity.
 
-- **[Talk (Coral Project)](https://github.com/coralproject/talk)** [![GitHub Stars](https://img.shields.io/github/stars/coralproject/talk?style=social&color=white)](https://github.com/coralproject/talk/stargazers)  
+- **[Talk (Coral Project)](https://github.com/coralproject/talk)** [![GitHub_Stars](https://img.shields.io/github/stars/coralproject/talk?style=social&color=white)](https://github.com/coralproject/talk/stargazers)  
   📰 **Open-source community comment streams from Vox Media.** Apache-2.0 licensed. Built with Node.js, GraphQL, and MongoDB. **Strengths**: Tailored for journalism, publishers, and high-traffic newsrooms; advanced moderation workflows, staff badges, and toxicity filtering. Best for embedding engaging, moderated comment communities directly under articles and media publications.
 
-- **[Talkyard](https://github.com/debiki/talkyard)** [![GitHub Stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers)  
+- **[Talkyard](https://github.com/debiki/talkyard)** [![GitHub_Stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers)  
   🧩 **Unified community platform combining StackOverflow, Slack, and Discourse.** AGPL-3.0 licensed. Built on Scala, React, and PostgreSQL. **Strengths**: Combines open-ended forum discussions, Q&A problem solving, and nested chat streams into a single cohesive interface. Best for teams wanting discussions, team chat, and documentation in one place.
 
-- **[Thredded](https://github.com/thredded/thredded)** [![GitHub Stars](https://img.shields.io/github/stars/thredded/thredded?style=social&color=white)](https://github.com/thredded/thredded/stargazers)  
+- **[Thredded](https://github.com/thredded/thredded)** [![GitHub_Stars](https://img.shields.io/github/stars/thredded/thredded?style=social&color=white)](https://github.com/thredded/thredded/stargazers)  
   💎 **Embeddable Rails forum engine.** MIT licensed. Built in Ruby on Rails. **Strengths**: Drop-in forum engine designed to be mounted directly inside existing Ruby on Rails applications; supports unread tracking, bbcode/markdown, and private topics. Best for developers who already run a Rails platform and want native embedded forums without running standalone forum servers.
 
-- **[MyBB](https://github.com/mybb/mybb)** [![GitHub Stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)  
+- **[MyBB](https://github.com/mybb/mybb)** [![GitHub_Stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)  
   📜 **Feature-rich traditional bulletin board.** LGPL-3.0 licensed. Written in PHP. **Strengths**: Classic multi-board hierarchy, comprehensive admin panel, private messaging, reputation system, and straightforward theme templating. Best for gaming clans and niche hobby boards looking for a familiar classic forum experience.
 
-- **[Simple Machines Forum (SMF)](https://github.com/SimpleMachines/SMF)** [![GitHub Stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)  
+- **[Simple Machines Forum (SMF)](https://github.com/SimpleMachines/SMF)** [![GitHub_Stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)  
   ⚙️ **Lightweight and dependable community engine.** BSD-3-Clause licensed. Built in PHP/MySQL. **Strengths**: Renowned package manager for one-click mod installations, fine-grained permission controls, and low resource utilization. Best for hobbyist webmasters looking for rock-solid stability on budget hosting.
 
 ---
@@ -109,7 +109,7 @@ Contributions, suggestions, and corrections are welcome! To contribute:
 
 1. 🍴 **Fork** the repository.
 2. 🌿 **Create a branch**: `git checkout -b feature/add-new-forum`.
-3. ✏️ **Edit `README.md`**: follow the existing markdown table or open-source list structure (including star badge syntax).
+3. ✏️ **Edit `README.md`**: follow the existing markdown table or open-source list structure (including Stars_Badge syntax).
 4. 📬 **Submit a Pull Request** with a brief summary explaining the project and why it belongs here.
 
 ---
@@ -142,3 +142,12 @@ Thank you for exploring and utilizing this collection! If you find this reposito
 <p align="center">
   <sub>Made with ❤️ for community managers, DevOps engineers, and creators building vibrant discussion spaces worldwide.</sub>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Community-Forum-Software&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Community-Forum-Software_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Community-Forum-Software_growth.svg">
+  </picture>
+</a>
