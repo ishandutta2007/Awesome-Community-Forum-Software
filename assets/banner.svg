@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="lightGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        fill: #ffffff;
+      }
+      .tagline-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .card-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        fill: #38bdf8;
+      }
+      .card-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        fill: #94a3b8;
+      }
+
+      /* Animated SVG Elements */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-14px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -40; }
+      }
+
+      .floating-bg-1 {
+        animation: floatSlow 8s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .floating-bg-2 {
+        animation: floatFast 6s ease-in-out infinite 1s;
+        transform-origin: center;
+      }
+      .pulsing-orb {
+        animation: pulseGlow 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .animated-line {
+        stroke-dasharray: 6, 6;
+        animation: dash 2.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+
+  <!-- Background Animated Atmospheric Orbs (stay strictly behind text) -->
+  <g class="pulsing-orb">
+    <circle cx="200" cy="90" r="130" fill="#6366f1" opacity="0.25" filter="url(#glow)" />
+    <circle cx="1020" cy="310" r="140" fill="#ec4899" opacity="0.2" filter="url(#glow)" />
+    <circle cx="920" cy="110" r="110" fill="#06b6d4" opacity="0.2" filter="url(#glow)" />
+  </g>
+
+  <!-- Decorative Network Flow Lines in Background -->
+  <path class="animated-line" d="M 850 70 Q 980 140 1020 250" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.4" />
+  <path class="animated-line" d="M 120 310 Q 250 280 340 330" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.4" />
+
+  <!-- Floating UI Community Cards in Ambient Space (Right Side) -->
+  <g class="floating-bg-1">
+    <!-- Card 1: Discussion Topic -->
+    <g transform="translate(860, 50)">
+      <rect width="270" height="85" rx="12" fill="url(#cardGrad)" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.4" />
+      <circle cx="30" cy="35" r="15" fill="#3b82f6" opacity="0.3" />
+      <text x="30" y="40" font-size="14" text-anchor="middle" fill="#60a5fa">💬</text>
+      <text x="56" y="32" class="card-title">Modern Discussion Space</text>
+      <text x="56" y="52" class="card-sub">Real-time WebSockets &amp; Trust Levels</text>
+      <rect x="56" y="62" width="60" height="12" rx="4" fill="#3b82f6" opacity="0.2" />
+      <rect x="124" y="62" width="70" height="12" rx="4" fill="#10b981" opacity="0.2" />
+    </g>
+  </g>
+
+  <g class="floating-bg-2">
+    <!-- Card 2: Federation / ActivityPub -->
+    <g transform="translate(890, 160)">
+      <rect width="250" height="80" rx="12" fill="url(#cardGrad)" stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.4" />
+      <circle cx="30" cy="35" r="15" fill="#8b5cf6" opacity="0.3" />
+      <text x="30" y="40" font-size="14" text-anchor="middle" fill="#c084fc">🌐</text>
+      <text x="56" y="32" class="card-title">ActivityPub &amp; Fediverse</text>
+      <text x="56" y="52" class="card-sub">Decentralized &amp; Federated Forums</text>
+    </g>
+
+    <!-- Card 3: Self-Hosted & Enterprise -->
+    <g transform="translate(840, 265)">
+      <rect width="290" height="78" rx="12" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.4" />
+      <circle cx="30" cy="35" r="15" fill="#ec4899" opacity="0.3" />
+      <text x="30" y="40" font-size="14" text-anchor="middle" fill="#f472b6">⚡</text>
+      <text x="56" y="32" class="card-title">Self-Hosted &amp; Scalable SaaS</text>
+      <text x="56" y="52" class="card-sub">Discourse • Flarum • NodeBB • Khoros</text>
+    </g>
+  </g>
+
+  <!-- Foreground Main Branding & Headers (Sharp & Visible) -->
+  <g transform="translate(80, 0)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 75)">
+      <rect width="280" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+      <circle cx="18" cy="16" r="5" fill="#22c55e" />
+      <text x="32" y="21" class="pill-text" fill="#a5b4fc">✨ CURATED OPEN SOURCE &amp; SAAS</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 155)">
+      <text class="title-text">
+        Awesome Community
+      </text>
+      <text y="54" class="title-text" fill="url(#primaryGlow)">
+        Forum Software
+      </text>
+    </g>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="250" class="tagline-text">
+      The definitive index of modern discussion boards, Q&amp;A platforms,
+    </text>
+    <text x="0" y="278" class="tagline-text">
+      federated networks, and enterprise community platforms.
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 315)">
+      <!-- Tag 1 -->
+      <rect width="130" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="65" y="21" text-anchor="middle" class="pill-text">🚀 Self-Hosted</text>
+
+      <!-- Tag 2 -->
+      <g transform="translate(142, 0)">
+        <rect width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="72" y="21" text-anchor="middle" class="pill-text">💬 Discussion Q&amp;A</text>
+      </g>
+
+      <!-- Tag 3 -->
+      <g transform="translate(299, 0)">
+        <rect width="135" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="67" y="21" text-anchor="middle" class="pill-text">🌐 Federated</text>
+      </g>
+
+      <!-- Tag 4 -->
+      <g transform="translate(446, 0)">
+        <rect width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="72" y="21" text-anchor="middle" class="pill-text">🏢 Enterprise SaaS</text>
+      </g>
+    </g>
+  </g>
+</svg>

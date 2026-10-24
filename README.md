@@ -1,46 +1,53 @@
-# Awesome-Community-Forum-Software
+# Awesome Community Forum Software 💬🚀
 
-## Top Community Forum Software Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Community Forum Software Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Dsscord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Community-Forum-Software?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Community-Forum-Software?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Community-Forum-Software?color=blue" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Community-Forum-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>A curated index of top open-source community forum engines, self-hosted discussion boards, Q&A platforms, and enterprise community SaaS solutions.</strong>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Self-Hosted Discussion Platforms, Real-Time Communities & Managed Forum SaaS*  
+## 🌟 Overview & Highlights 💡
 
-**Last updated: October 2026**
+Modern online communities have evolved past static bulletin boards into real-time hubs for customer support, developer relations, knowledge sharing, and decentralized social networks. Whether you need an **enterprise-ready self-hosted platform** (Discourse), an **ultralight modern board** (Flarum), a **real-time WebSocket platform** (NodeBB), a **federated ActivityPub community** (Lemmy), or a **managed creator SaaS** (Circle, Mighty Networks), this guide provides clear benchmarks for pricing, system requirements, and scalability.
 
+- ⚡ **Self-Hosted Control**: Retain data sovereignty, GDPR/compliance ownership, and eliminate per-seat fees.
+- 💬 **Versatile Topologies**: Traditional threaded boards, StackOverflow-style Q&A, and ActivityPub federation.
+- 🏢 **Transparent Pricing**: Detailed starting tiers and free-trial terms across leading commercial SaaS options.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Community Forum Software**. These tools enable organizations to build discussion spaces—support forums, customer communities, and internal knowledge bases—ranging from fully managed SaaS platforms with enterprise features to self-hosted open-source forums that you control entirely.
+## 📑 Table of Contents 📌
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics-)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms-)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects-)
+- [🤝 How to Contribute](#-how-to-contribute-)
+- [⭐ Star History](#-star-history-)
+- [💖 Support](#-support-)
+- [⚖️ Disclaimer](#️-disclaimer-)
 
+---
 
-**Examples** include Discourse, Flarum, NodeBB, Higher Logic Vanilla, Khoros Communities, Bettermode, Circle, Mighty Networks, Invision Community, and Hivebrite (the category leaders).
+## 📊 Sector Overview & Market Dynamics 📈
 
+The global online community and forum software market is estimated at **$1.8B – $2.4B**, growing steadily as organizations prioritize community-led growth, customer engagement, and support ticket deflection. The sector is **moderately to highly fragmented** rather than winner-take-all; top enterprise suites (such as Khoros and Higher Logic) capture less than a third of the market value, coexisting alongside specialized creator platforms (Circle, Mighty Networks), vertical-specific solutions (Hivebrite), and robust self-hosted open-source alternatives (Discourse, Flarum).
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding per-member SaaS fees, and controlling community data. The open-source landscape is anchored by **Discourse** (the enterprise standard with trust levels and gamification), **Flarum** (the lightweight PHP alternative with a modern UI), and **NodeBB** (the real-time WebSocket-based forum), with **Lemmy** offering federated ActivityPub communities.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global online community and forum software market is estimated at **$1.8B – $2.4B**, growing steadily as organizations prioritize community-led growth, customer engagement, and support deflection. The sector is **moderately to highly fragmented** rather than winner-take-all; top enterprise suites (e.g., Khoros, Higher Logic) capture less than a third of the market, coexisting alongside specialized creator platforms (Circle, Mighty Networks), vertical-specific solutions (Hivebrite), and robust self-hosted open-source alternatives (Discourse, Flarum).
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Platforms ☁️
 
 | Product | Description | Company Size (Rev / Valuation) | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -52,74 +59,86 @@ The global online community and forum software market is estimated at **$1.8B �
 | **[Bettermode](https://bettermode.com/)** | Modern community platform with customizable spaces and member management. | ~$3.1M ARR ($7.5M seed funding) | **Starter**: **$149/month** (billed annually) or **$199/month** (monthly); **Growth**: **$1,500/month**; **Enterprise**: custom | **14-day free trial** (full access up to 10,000 members and 5 staff seats, no credit card required; no permanent free plan) |
 | **[Invision Community](https://invisioncommunity.com/)** | Full community suite with forums, galleries, blogs, and commerce. | ~$1.8M – $10M ARR (Privately held / bootstrapped) | **Creator**: **$89/month** (billed annually) or **$99/month** (monthly); **Creator Plus**: higher tiers available | **30-day free trial** (unlimited features without credit card, limited to temporary system domain, no outgoing emails, and no custom external marketplace apps) |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects 🛠️
 
+*Ranked strictly in descending order by GitHub stargazers count.*
 
 - **[Discourse](https://github.com/discourse/discourse)** [![GitHub Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers)  
-
-  **The enterprise self-hosted standard.** GPL-2.0 licensed. Built by Stack Overflow co-founder Jeff Atwood. **Strengths**: built-in gamification with trust levels and badges, separate chat surface, SSO via SAML/OIDC/LDAP, Akismet anti-spam, and 200+ plugins. **Resource requirements**: 2 GB RAM minimum, 4 GB recommended; Docker-based with Postgres, Redis, and Sidekiq. **Trade-offs**: Ruby on Rails can be slow without enough resources; plugin development requires Ember.js expertise; upgrades may break custom themes. Best for established communities with 50+ daily active users needing robust moderation and enterprise SSO.
-
-
+  👑 **The enterprise self-hosted standard.** GPL-2.0 licensed. Built by Stack Overflow co-founder Jeff Atwood. **Strengths**: built-in gamification with trust levels and badges, separate chat surface, SSO via SAML/OIDC/LDAP, Akismet anti-spam, and 200+ plugins. **Resource requirements**: 2 GB RAM minimum, 4 GB recommended; Docker-based with Postgres, Redis, and Sidekiq. **Trade-offs**: Ruby on Rails can be slow without enough resources; plugin development requires Ember.js expertise. Best for established communities with 50+ daily active users needing robust moderation and enterprise SSO.
 
 - **[Flarum](https://github.com/flarum/flarum)** [![GitHub Stars](https://img.shields.io/github/stars/flarum/flarum?style=social&color=white)](https://github.com/flarum/flarum/stargazers)  
+  ⚡ **The lightweight modern alternative.** MIT licensed. PHP/Laravel-based backend with a Mithril.js frontend—fast, clean, and simple. **Resource requirements**: 512 MB RAM minimum; runs comfortably on modest VPS hardware. **Strengths**: modern single-page-app UI, extensible architecture, smallest footprint of the major open-source forums. **Trade-offs**: smaller extension catalog than Discourse, single-level threading. Best for small to medium communities wanting a clean, snappy modern forum without Discourse's infrastructure overhead.
 
-  **The lightweight modern alternative.** MIT licensed. PHP/Laravel-based with a Mithril.js frontend—fast, clean, and simple. **Resource requirements**: 512 MB RAM minimum; runs comfortably on modest VPS hardware. **Strengths**: modern single-page-app UI, "everything is an extension" architecture, smallest footprint of the major open-source forums. **Trade-offs**: smaller extension catalog than Discourse, weaker moderation tools, no built-in chat, single-level threading only. Best for small to medium communities (under 500 daily active users) wanting a clean modern forum without Discourse's overhead.
-
-
+- **[Apache Answer](https://github.com/apache/answer)** [![GitHub Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers)  
+  💡 **Open-source Q&A community platform.** Apache-2.0 licensed. Built with Go and React for high performance and low memory consumption. **Strengths**: StackOverflow-style question-and-answer format, voting, reputation scores, badges, and multilingual support out of the box. **Resource requirements**: Lightweight Go binary running easily on 512 MB RAM. Best for developer portals, technical product support, and internal organizational knowledge bases.
 
 - **[NodeBB](https://github.com/NodeBB/NodeBB)** [![GitHub Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers)  
+  🔄 **The real-time forum.** GPL-3.0 licensed. Node.js-based with WebSockets for instant updates—posts appear without page refreshes, notifications pop in real-time, and the experience feels closer to a modern social application. **Strengths**: real-time updates, social-style notifications, reputation/karma, and solid REST/WebSocket APIs. **Resource requirements**: 512 MB RAM minimum; MongoDB or PostgreSQL/Redis. Best for gaming communities, tech groups, and any community where immediacy is core.
 
-  **The real-time forum.** GPL-3.0 licensed. Node.js-based with WebSockets for instant updates—posts appear without page refreshes, notifications pop in real-time, and the experience feels closer to a chat app. **Strengths**: real-time everything, social-style notifications, reputation/karma, and solid REST/WebSocket APIs for embedding. **Resource requirements**: 512 MB RAM minimum; MongoDB (default) or PostgreSQL/Redis. **Trade-offs**: MongoDB adds operational complexity; UI less polished than Discourse or Flarum by default; fewer plugins. Best for gaming communities, tech groups, and any community where immediacy and live interaction are core.
+- **[Lemmy](https://github.com/LemmyNet/lemmy)** [![GitHub Stars](https://img.shields.io/github/stars/LemmyNet/lemmy?style=social&color=white)](https://github.com/LemmyNet/lemmy/stargazers)  
+  🌐 **Federated ActivityPub link aggregator and forum.** AGPL-3.0 licensed. Built in Rust and Actix. **Strengths**: Decentralized and federated with Mastodon and the broader Fediverse; users on any Lemmy or ActivityPub server can subscribe to communities across instances. **Resource requirements**: Ultra-efficient Rust backend. Best for federated communities and organizations wanting privacy-focused, decentralized discussion.
 
+- **[HumHub](https://github.com/humhub/humhub)** [![GitHub Stars](https://img.shields.io/github/stars/humhub/humhub?style=social&color=white)](https://github.com/humhub/humhub/stargazers)  
+  👥 **Flexible open-source social network and intranet.** AGPL-3.0 licensed. Built on PHP and Yii framework. **Strengths**: Spaces/groups, user profiles, activity streams, directory, and a rich module marketplace for wikis, polls, and calendar events. Best for enterprise intranets, university student hubs, and organizational social networks.
 
+- **[phpBB](https://github.com/phpbb/phpbb)** [![GitHub Stars](https://img.shields.io/github/stars/phpbb/phpbb?style=social&color=white)](https://github.com/phpbb/phpbb/stargazers)  
+  🏛️ **The battle-tested classic bulletin board.** GPL-2.0 licensed. One of the longest-standing open-source forum solutions in history. **Strengths**: Unmatched stability, thousands of legacy extensions and styles, extremely low server overhead, runs on almost any shared PHP/MySQL host. Best for traditional categorized forums and hobbyist communities prioritizing longevity and simplicity.
 
-### Additional Strong Open-Source Options
+- **[Talk (Coral Project)](https://github.com/coralproject/talk)** [![GitHub Stars](https://img.shields.io/github/stars/coralproject/talk?style=social&color=white)](https://github.com/coralproject/talk/stargazers)  
+  📰 **Open-source community comment streams from Vox Media.** Apache-2.0 licensed. Built with Node.js, GraphQL, and MongoDB. **Strengths**: Tailored for journalism, publishers, and high-traffic newsrooms; advanced moderation workflows, staff badges, and toxicity filtering. Best for embedding engaging, moderated comment communities directly under articles and media publications.
 
+- **[Talkyard](https://github.com/debiki/talkyard)** [![GitHub Stars](https://img.shields.io/github/stars/debiki/talkyard?style=social&color=white)](https://github.com/debiki/talkyard/stargazers)  
+  🧩 **Unified community platform combining StackOverflow, Slack, and Discourse.** AGPL-3.0 licensed. Built on Scala, React, and PostgreSQL. **Strengths**: Combines open-ended forum discussions, Q&A problem solving, and nested chat streams into a single cohesive interface. Best for teams wanting discussions, team chat, and documentation in one place.
 
+- **[Thredded](https://github.com/thredded/thredded)** [![GitHub Stars](https://img.shields.io/github/stars/thredded/thredded?style=social&color=white)](https://github.com/thredded/thredded/stargazers)  
+  💎 **Embeddable Rails forum engine.** MIT licensed. Built in Ruby on Rails. **Strengths**: Drop-in forum engine designed to be mounted directly inside existing Ruby on Rails applications; supports unread tracking, bbcode/markdown, and private topics. Best for developers who already run a Rails platform and want native embedded forums without running standalone forum servers.
 
-- **Lemmy** — Federated forum using ActivityPub, part of the Fediverse. Best for communities wanting federation with Mastodon and other platforms.
+- **[MyBB](https://github.com/mybb/mybb)** [![GitHub Stars](https://img.shields.io/github/stars/mybb/mybb?style=social&color=white)](https://github.com/mybb/mybb/stargazers)  
+  📜 **Feature-rich traditional bulletin board.** LGPL-3.0 licensed. Written in PHP. **Strengths**: Classic multi-board hierarchy, comprehensive admin panel, private messaging, reputation system, and straightforward theme templating. Best for gaming clans and niche hobby boards looking for a familiar classic forum experience.
 
-- **Vanilla (open source)** — The legacy open-source version of Vanilla Forums. Best for existing deployments; not recommended for new projects given the commercial platform's evolution.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Enterprise community platforms are expensive and quote-only**: Khoros has a **median contract of ~$164,649/year** with no free tier and no trial ; Higher Logic Vanilla starts at **$599/month** with implementation fees of $2,000–$10,000 . Open-source alternatives eliminate these recurring costs.
-
-- **Open-source forums require infrastructure**: Discourse needs 2–4 GB RAM; Flarum and NodeBB run on 512 MB . Free software is not free operations.
-
-- **Discourse vs Flarum vs NodeBB depends on your needs**: Discourse for mature communities with enterprise features; Flarum for lightweight modern forums; NodeBB for real-time chat-like experiences . All three are production-ready, but resource requirements and feature depth differ significantly.
-
-
+- **[Simple Machines Forum (SMF)](https://github.com/SimpleMachines/SMF)** [![GitHub Stars](https://img.shields.io/github/stars/SimpleMachines/SMF?style=social&color=white)](https://github.com/SimpleMachines/SMF/stargazers)  
+  ⚙️ **Lightweight and dependable community engine.** BSD-3-Clause licensed. Built in PHP/MySQL. **Strengths**: Renowned package manager for one-click mod installations, fine-grained permission controls, and low resource utilization. Best for hobbyist webmasters looking for rock-solid stability on budget hosting.
 
 ---
 
+## 🤝 How to Contribute 🚀
 
+Contributions, suggestions, and corrections are welcome! To contribute:
 
-**Made for community managers, platform engineers, and organizations building discussion spaces.**  
+1. 🍴 **Fork** the repository.
+2. 🌿 **Create a branch**: `git checkout -b feature/add-new-forum`.
+3. ✏️ **Edit `README.md`**: follow the existing markdown table or open-source list structure (including star badge syntax).
+4. 📬 **Submit a Pull Request** with a brief summary explaining the project and why it belongs here.
 
-Let's make community forum software more open, self-hostable, and appropriately scoped.
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Community-Forum-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Community-Forum-Software&type=date&legend=top-left)
+
+---
+
+## 💖 Support 🙌
+
+Thank you for exploring and utilizing this collection! If you find this repository valuable, here are a few ways to support its ongoing maintenance:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and contribute** by adding new platforms or updating existing ones.
+- 📢 **Share with your network** on Discord, X (Twitter), LinkedIn, or developer forums.
+- ☕ **Sponsor or buy a coffee**: Support maintenance and development directly on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer 📋
+
+- This is an independent, **community-curated index** — not an exhaustive list and not a commercial endorsement.
+- **Enterprise community platforms are expensive and quote-only**: Khoros has contract values exceeding **$50,000–$160,000+/year** with no free tier or trial; Higher Logic Vanilla starts around **$24,000/year**. Self-hosted open-source alternatives eliminate recurring per-seat fees.
+- **Open-source forums require server infrastructure**: Discourse recommends 2–4 GB RAM with Docker and Redis; Flarum and Apache Answer run comfortably on 512 MB VPS environments. Choose the software that aligns with your team's DevOps capabilities.
+
+---
+
+<p align="center">
+  <sub>Made with ❤️ for community managers, DevOps engineers, and creators building vibrant discussion spaces worldwide.</sub>
+</p>
